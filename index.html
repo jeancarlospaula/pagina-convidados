@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="theme">
+        <button id="claro">CLARO</button>
+        <button id="escuro">ESCURO</button>
+    </div>
+
+    <div id="main-container">
+        <h1 id="titulo" class="cor">Lista de Convidados</h1>
+        <p id="textoPrimario" class="cor">Para validar sua presença na lista, digite seu nome no campo abaixo e clique no botão Confirmar.</p>
+
+
+        <form>
+            <input type="text" placeholder="Nome" id="nome" required autocomplete="off" class="cor" id="input"/>
+            <button id="botaoEnviar">CONFIRMAR</button>
+            <a id="botaoLimpar"><img src="https://i.pinimg.com/originals/94/3e/9a/943e9af2b53e62a0c6ba94313e24ae9d.png" alt="lixo" width="20px"></a>
+        </form>
+
+        <p id="textoSecundario" class="cor">*Para limpar a lista de presentes, clique na lixeira</p>
+
+        <main div="content">
+            <h3 id="titulo2" class="cor">Convidados:</h3>
+            <ul id="lista">
+
+            </ul>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
